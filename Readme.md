@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Андрей Максимов](https://up.htmlacademy.ru/htmlcss/24/user/931159).
-* Наставник: [Станислав Кузнецов] (https://up.htmlacademy.ru/htmlcss/24/user/237925).
+* Наставник: [Станислав Кузнецов](https://up.htmlacademy.ru/htmlcss/24/user/237925).
 
 ---
 
