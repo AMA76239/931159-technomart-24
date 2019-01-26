@@ -3,58 +3,140 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-<header class="main-header">
-  <nav class="">
-   <div class="main-header-logo">
-    <a class="" href="index.html">ТЕХНОМАРТ</a>
-   </div>
-   <div>
-     <input type="submit" value="Поиск:">
-      <input type="search" name="q" placeholder="">
-   </div>
-   <div class="buy">
-    <ul class="site-navigation">
-     <li>Закладки</li>
-     <li>Корзина</li>
-     <li>Оформить заказ</li>
-    </ul>
-   </div>
-  </nav>
-  <nav>
-   <div class="">
-   <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-   </div>
-   <div class="">
-<!-- Блок не вставлен -->
-   </div>
-   <ul>
-    <li>Войти</li>
-    <li>Регистрация</li>
-   </ul>
-  </nav>
-  <nav>
-     <ul class="site-navigation">
-      <li><a href="main.html">Главная</a></li>
-      <li><a href="company.html">Компания</a></li>
-      <li><a href="catalog.html">Каталог</a></li>
-      <li><a href="hews.html">Новости</a></li>
-      <li><a href="special-offer.html">Спецпредложения</a></li>
-      <li><a href="delivery.html">Доставка</a></li>
-      <li><a href="contacts.html">Контакты</a></li>
-     </ul>
-  </nav>
-
-</header>
-
-<main>
-
-</main>
-
-<footer>
-
-</footer>
-
+    <header class="main-header">
+      <nav class="navigation-header-up">
+        <div class="main-header-logo">
+          <a class="main-header-link" href="index.html">
+            <h1>ТЕХНОМАРТ</h1>
+          </a>
+        </div>
+        <div class="">
+          <input type="submit" value="Поиск:">
+          <input type="search" name="q" placeholder="">
+        </div>
+        <div class="buy">
+          <ul class="site-navigation">
+            <li>Закладки</li>
+            <li>Корзина</li>
+            <li>Оформить заказ</li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="navigation-header-center">
+        <div class="">
+          <p>Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</p>
+        </div>
+        <div class="">
+          <p>+7 (812) 555-05-55</p>
+          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        </div>
+        <ul>
+          <li>Войти</li>
+          <li>Регистрация</li>
+        </ul>
+      </nav>
+      <nav class="navigation-header-down">
+        <ul class="site-navigation">
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="company.html">Компания</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="hews.html">Новости</a></li>
+          <li><a href="special-offer.html">Спецпредложения</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section>
+            <li class="materials-categories">
+              <h3>
+                <a href="materials.html">
+                  <span class="type-categories">Материалы</span>
+                  <span class="text-categories">на любой вкус</span>
+                </a>
+              </h3>
+              <p class="image-categories">
+                <a href="materials.html">
+                  <img src="img/materials.jpg" width="300" height="150" alt="материалы">
+                </a>
+              </p>
+            </li>
+            <li class="instruments-categories">
+              <h3>
+                <a href="instruments.html">
+                  <span class="type-categories">Инструменты</span>
+                  <span class="text-categories">на все случаи</span>
+                </a>
+              </h3>
+              <p class="image-categories">
+                <a href="instruments.html">
+                  <img src="img/instruments.jpg" width="300" height="150" alt="инструменты">
+                </a>
+              </p>
+            </li>
+            <li class="equipment-categories">
+              <h3>
+                <a href="equipment.html">
+                  <span class="type-categories">Техника</span>
+                  <span class="text-categories">для стройки</span>
+                </a>
+              </h3>
+              <p class="image-categories">
+                <a href="equipment.html">
+                  <img src="img/equipment.jpg" width="300" height="150" alt="техника">
+                </a>
+              </p>
+            </li>
+            <li class="discounts-categories">
+              <h3>
+                <a href="discounts.html">
+                  <span class="type-categories">Скидки 50%</span>
+                  <span class="text-categories">на 350 товаров</span>
+                </a>
+              </h3>
+              <p class="image-categories">
+                <a href="discounts.html">
+                  <img src="img/discounts.jpg" width="300" height="150" alt="скидки">
+                </a>
+              </p>
+            </li>
+            <li class="delivery-categories">
+              <h3>
+                <a href="delivery.html">
+                  <span class="type-categories">Доставка</span>
+                  <span class="text-categories">бесплатно</span>
+                </a>
+              </h3>
+              <p class="image-categories">
+                <a href="delivery.html">
+                  <img src="img/delivery.jpg" width="300" height="150" alt="доставка">
+                </a>
+              </p>
+            </li>
+            <li class="drills">
+              <h3>
+                <a href="drills.html">
+                  <span class="type-categories">ДРЕЛИ</span>
+                  <span class="text-categories">соседям на радость</span>
+                </a>
+              </h3>
+              <p class="image-categories">
+                <a href="drills.html">
+                  <img src="img/drills.jpg" width="600" height="300" alt="дрели">
+                </a>
+              </p>
+              <p class="text-categories">
+                <a href="drills.html">бесплатно</a>
+              </p>
+            </li>
+          </ul>
+        </section>
+    </main>
+    <footer>
+    </footer>
   </body>
 </html>
