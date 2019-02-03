@@ -52,8 +52,33 @@
       <section class="catalog">
         <h1>Перфораторы</h1>
         <div class="filters">
-          <h3 class="visually-hidden">Фильтр:</h3>
-          <!-- Здесь будет форма -->
+          <h3 c lass="visually-hidden">Фильтр:</h3>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <!-- Здесь будет форма Цена -->
+            <fieldset>
+              <legend>Производители:</legend>
+              <input type="checkbox" name="manufacturers" value="Bosch" checked>
+              <label for="manufacturers">Bosch</label>
+              <input type="checkbox" name="manufacturers" value="Интерскол" >
+              <label for="manufacturers">Интерскол</label>
+              <input type="checkbox" name="manufacturers" value="Makita" checked>
+              <label for="manufacturers">Makita</label>
+              <input type="checkbox" name="manufacturers" value="Dewalt">
+              <label for="manufacturers">Dewalt</label>
+              <input type="checkbox" name="manufacturers" value="Hitachi">
+              <label for="manufacturers">Hitachi</label>
+            </fieldset>
+            <fieldset>
+            <legend>Питание:</legend>
+              <label>
+                <input type="radio" name="power" value="accumulator" checked>Аккумуляторные
+              </label>
+              <label>
+                <input type="radio" name="power" value="wired">Проводные
+              </label>
+            </fieldset>
+            <button type="submit" value="Показать">Показать</button>
+          </form>
         </div>
         <div class="sorting">
           <p class="sorting-text">Сортировка:</p>
@@ -174,5 +199,16 @@
         </div>
       </div>
     </footer>
+    <section class="product-checked">
+      <div class="checked-up">
+        <img src="img/catalog/checked.png" alt="Выбрано">
+        <p class="checked-text">Товар добавлен в корзину!</p>
+      </div>
+      <div class="checked-down">
+        <a class="basket" href="basket.html">Оформить заказ</a>
+        <button class="continue" type="button">Продолжить покупки</button>
+      </div>
+     <button class="closed-form"><img src="img/catalog/closed.png" alt="Закрыть"></button>
+   </section>
   </body>
 </html>
