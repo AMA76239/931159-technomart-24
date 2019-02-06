@@ -3,46 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <section class="section-header-up">
-        <a class="head-logo" href="index.html">Техномарт</a>
-        <form class="search" action="https://echo.htmlacademy.ru" method="post">
-          <input type="search" name="search" id="search" placeholder="Поиск:">
+      <div class="section-header-up">
+        <a class="head-logo" href="#"></a>
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+          <input class="search" type="search" name="search" id="search" placeholder="Поиск:">
           <button hidden="hidden" type="submit" value="Искать"></button>
         </form>
-        <ul class="site-navigation">
-          <li class="site-navigation"><a href="#">Закладки</a></li>
-          <li class="site-navigation"><a href="#">Корзина</a></li>
-          <li class="site-navigation"><a href="#">Оформить заказ</a></li>
+        <ul class="site-point">
+          <li><a class="bookmarks" href="#">Закладки</a></li>
+          <li><a class="basket" href="#">Корзина</a></li>
+          <li><a class="checkout" href="#">Оформить заказ</a></li>
         </ul>
-      </section>
-      <section class="section-header-down">
+      </div>
+      <div class="section-header-down">
         <p class="text-info">Интернет-магазин строительных материалов и инструментов для ремонта</p>
         <div class="contacts">
           <p class="number">+7 (812) 555-05-55</p>
-          <p class="headre-addres">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
+        <p class="headre-addres">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         <ul class="entrance-user">
           <li class="entrance"><a href="#">Войти</a></li>
           <li class="registration"><a href="#">Регистрация</a></li>
         </ul>
-      </section>
-      <nav class="site-navigation">
-        <ul class="site-navigation-button">
-          <li class="navigation-button"><a href="main.html">Главная</a></li>
-          <li class="navigation-button"><a href="company.html">Компания</a></li>
-          <li class="navigation-button"><a href="catalog.html">Каталог</a></li>
-          <li class="navigation-button"><a href="hews.html">Новости</a></li>
-          <li class="navigation-button"><a href="special-offer.html">Спецпредложения</a></li>
-          <li class="navigation-button"><a href="delivery.html">Доставка</a></li>
-          <li class="navigation-button"><a href="contacts.html">Контакты</a></li>
-        </ul>
-      </nav>
+        <nav class="site-navigation">
+          <ul class="site-navigation-button">
+            <li class="navigation-button"><a href="#">Главная</a></li>
+            <li class="navigation-button"><a href="#">Компания</a></li>
+            <li class="navigation-button"><a href="#">Каталог</a></li>
+            <li class="navigation-button"><a href="#">Новости</a></li>
+            <li class="navigation-button"><a href="#">Спецпредложения</a></li>
+            <li class="navigation-button"><a href="#">Доставка</a></li>
+            <li class="navigation-button"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main class="main-main">
+    <main class="main-main" >
       <section class="category">
           <div class="materials-categories">
             <h3 class="type-categories">Материалы</h3>
@@ -187,7 +188,7 @@
               <li class="transport-company-type">Автотрейдинг</li>
               <li class="transport-company-type">ЖелДорЭкспедиция</li>
             </ul>
-            <a href="company-info.html">
+            <a href="#">
               <span class="company-info">Подробнее о компании</span>
             </a>
           </div>
@@ -195,38 +196,38 @@
             <h3>Контакты</h3>
             <p class="info-right-text">Вы можете забрать товар сами, заехав в наш офис:</p>
             <img src="img/index/map.jpg" alt="Как добраться">
-            <a href="connection.html">Заблудились? Пишите нам!</a>
+            <a href="#">Заблудились? Пишите нам!</a>
           </div>
         </section>
      </main>
      <footer class="main-footer">
        <div class="footer-up">
          <div class="section-footer-up">
-           <a class="main-footer-link" href="index.html">Техмарт</a>
+           <img class="logo-img" src="img/index/technomart-footer.png" alt="Техномарт">
            <ul class="footer-menu-up">
-             <li class="footer-menu-up"><a href="company.html">Компания</a></li>
-             <li class="footer-menu-up"><a href="news.html">Новости</a></li>
-             <li class="footer-menu-up"><a href="catalog.html">Каталог</a></li>
-             <li class="footer-menu-up"><a href="delivery.html">Доставка</a></li>
-             <li class="footer-menu-up"><a href="contacts.html">Контакты</a></li>
+             <li class="footer-menu-up"><a href="#">Компания</a></li>
+             <li class="footer-menu-up"><a href="#">Новости</a></li>
+             <li class="footer-menu-up"><a href="#">Каталог</a></li>
+             <li class="footer-menu-up"><a href="#">Доставка</a></li>
+             <li class="footer-menu-up"><a href="#">Контакты</a></li>
            </ul>
          </div>
          <div class="section-footer-down">
            <p class="footer-addres">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
            <ul class="footer-menu-down">
-             <li class="footer-menu-down"><a href="materials.html">Материалы</a></li>
-             <li class="footer-menu-down"><a href="technique.html">Техника</a></li>
-             <li class="footer-menu-down"><a href="instruments.html">Инструменты</a></li>
-             <li class="footer-menu-down"><a href="special-offers.html">Спецпредложения</a></li>
+             <li class="footer-menu-down"><a href="#">Материалы</a></li>
+             <li class="footer-menu-down"><a href="#">Техника</a></li>
+             <li class="footer-menu-down"><a href="#">Инструменты</a></li>
+             <li class="footer-menu-down"><a href="#">Спецпредложения</a></li>
            </ul>
          </div>
        </div>
        <div class="footer-down">
          <p class="footer-copyright">© 2010–2019 Компания «Техномарт» Все права защищены</p>
          <ul class="footer-social">
-           <li class="vk"><a class="social-button" href="#">Вконтакте</a></li>
-           <li class="fb"><a class="social-button" href="#">Фейсбук</a></li>
-           <li class="instogram"><a class="social-button" href="#">Инстаграм</a></li>
+           <li class="vk"><a class="social-button" href="#" title="Вконтакте"></a></li>
+           <li class="fb"><a class="social-button" href="#" title="Фейсбук"></a></li>
+           <li class="instogram"><a class="social-button" href="#" title="Инстаграм"></a></li>
          </ul>
          <div class="footer-developer">
            <p class="feedback">Обратная связь:</p>
@@ -238,7 +239,7 @@
          </div>
        </div>
      </footer>
-     <section class="form-write">
+     <section class="form-write" hidden="hidden">
       <form action="https://echo.htmlacademy.ru" method="post">
         <label>Ваше имя</label>
         <input type="text" name="username" placeholder="Имя Фамилия">
@@ -250,7 +251,7 @@
       </form>
       <button class="closed-form"><img src="img/index/closed.png" alt="Закрыть"></button>
     </section>
-    <section class="big-map">
+    <section class="big-map" hidden="hidden">
       <img src="img/index/map-big.png" alt="Большая карта с проездом">
       <button class="closed-map"><img src="img/index/closed.png" alt="Закрыть"></button>
     </section>

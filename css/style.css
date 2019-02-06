@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+.main-header {
+  background-color: #f3f7f9;
+}
+.section-header-up {
+  background-color: #293449;
+}
+a.head-logo {
+  background-image: url(../img/index/technomart.png);
+  width: 220px;
+  height: 47px;
+  display: block;
+}
+a.head-logo:hover,
+a.head-logo:focus {
+  background: url(../img/index/technomart-hover.png);
+}
+a.head-logo:active {
+  background: url(../img/index/technomart-hover.png);
+}
+.search-form input[type="search"] {
+  color: #ffffff;
+  background-color: #293449;
+  border: 0px;
+  font-size: 17px;
+  line-height: 18px;
+}
+.search-form input[type="search"]::placeholder {
+  color: #ffffff;
+}
+.search-form input[type="search"]:hover,
+.search-form input[type="search"]:focus {
+  background-color: #212a3a;
+}
+.site-point li {
+  list-style: none;
+}
+.site-point a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 18px;
+}
+.site-point a:hover,
+.site-point a:focus {
+  background-color: #212a3a;
+}
+.site-point a.checkout {
+  background-color: #63a63e;
+}
+.site-point a.checkout:hover,
+.site-point a.checkout:focus {
+  background-color: #5fbb2d;
+}
+.site-point a.checkout:active {
+  background-color: #518534;
+}
+div.section-header-down {
+  background-color: #f3f7f8;
+}
+p.text-info {
+  color: #ee3643;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+}
+div.contacts {
+  border: 3px #ffffff solid;
+}
+p.number {
+  color: #ee3643;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 21px;
+}
+p.headre-addres {
+  color: #32425c;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+}
+.entrance-user li {
+  list-style: none;
+}
+.entrance-user a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 21px;
+}
+.entrance-user a:hover,
+.entrance-user a:focus {
+  color: #ee3643;
+}
+nav.site-navigation {
+  background-color: #32425c;
+}
+.site-navigation-button li {
+  list-style: none;
+}
+.site-navigation-button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 17px;
+}
+.site-navigation-button a:hover,
+.site-navigation-button a:focus {
+  background-color: #1d2739;
+}
+.site-navigation-button a:active {
+  background-color: #1d2739;
+}
+section.company-info {
+  background-color: #ffffff;
+  color: #000000;
+}
+h1.info-text {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+}
+.info-left p {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 24px;
+}
+.transport-company li {
+  list-style-image:  url(../img/index/mark.png);
+  font-size: 18px;
+  line-height: 40px;
+}
+.info-left a {
+  color: #000000;
+  padding: 14px 27px 12px 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #ee3643;
+  width: 220px;
+  height: 38px;
+}
+.info-left a:hover,
+.info-left a:focus{
+  background-color: #ca2c37;
+}
+.info-left a:active{
+  background-color: #ba2732;
+}
+.info-right h3 {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+}
+p.info-right-text {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 24px;
+}
+.info-right a {
+    color: #000000;
+    padding: 14px 59px 12px 63px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #ee3643;
+    width: 300px;
+    height: 38px;
+  }
+.info-right a:hover,
+.info-right a:focus{
+    background-color: #ca2c37;
+  }
+.info-right a:active{
+    background-color: #ba2732;
+  }
+.main-footer {
+  background-color: #32425c;
+}
+.footer-up {
+  background-color: #32425c;
+}
+.footer-menu-up li {
+  list-style: none;
+}
+.footer-menu-up a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.footer-menu-up a:hover,
+.footer-menu-up a:focus {
+  text-decoration: underline;
+}
+.footer-menu-up a:active {
+  color: #929caa;
+  text-decoration: none;
+}
+p.footer-addres {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer-menu-down li {
+  list-style: none;
+}
+.footer-menu-down a {
+  color: #ffd180;
+  text-decoration: none;
+  font-size: 18px;
+}
+.footer-menu-down a:hover,
+.footer-menu-down a:focus {
+  text-decoration: underline;
+}
+.footer-menu-down a:active {
+  color: #998a6e;
+  text-decoration: none;
+}
+div.footer-down {
+  background-color: #293449;
+}
+p.footer-copyright {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.footer-social li {
+  list-style: none;
+}
+.vk a {
+  background-image: url(../img/index/vk.png);
+  width: 41px;
+  height: 42px;
+  display: block;
+}
+.vk a:hover,
+.vk a:focus {
+  background: url(../img/index/vk-hover.png);
+}
+.vk a:active {
+  background: url(../img/index/vk-hover.png);
+}
+.fb a {
+  background-image: url(../img/index/fb.png);
+  width: 41px;
+  height: 42px;
+  display: block;
+}
+.fb a:hover,
+.fb a:focus {
+  background: url(../img/index/fb-hover.png);
+}
+.fb a:active {
+  background: url(../img/index/fb-hover.png);
+}
+.instogram a {
+  background-image: url(../img/index/insta.png);
+  width: 41px;
+  height: 42px;
+  display: block;
+}
+.instogram a:hover,
+.instogram a:focus {
+  background: url(../img/index/insta-hover.png);
+}
+.instogram a:active {
+  background: url(../img/index/insta-hover.png);
+}
+.footer-developer p {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.footer-developer a {
+  color: #f1c77c;
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer-developer a:hover,
+.footer-developer a:focus {
+  text-decoration: underline;
+}
+.footer-developer a:active {
+  color: #ee3643;
+  text-decoration: none;
+}
