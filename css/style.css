@@ -8,23 +8,26 @@ body {
   color: #ffffff;
   background-color: #ffffff;
 }
+a {
+  text-decoration: none;
+}
 .main-header {
   background-color: #f3f7f9;
 }
 .section-header-up {
   background-color: #293449;
 }
-a.head-logo {
+.head-logo {
   background-image: url(../img/index/technomart.png);
   width: 220px;
   height: 47px;
   display: block;
 }
-a.head-logo:hover,
-a.head-logo:focus {
+.head-logo:hover,
+.head-logo:focus {
   background: url(../img/index/technomart-hover.png);
 }
-a.head-logo:active {
+.head-logo:active {
   background: url(../img/index/technomart-hover.png);
 }
 .search-form input[type="search"] {
@@ -46,7 +49,6 @@ a.head-logo:active {
 }
 .site-point a {
   color: #ffffff;
-  text-decoration: none;
   font-size: 17px;
   line-height: 18px;
 }
@@ -64,28 +66,25 @@ a.head-logo:active {
 .site-point a.checkout:active {
   background-color: #518534;
 }
-div.section-header-down {
+.section-header-down {
   background-color: #f3f7f8;
 }
-p.text-info {
+.text-info {
   color: #ee3643;
-  text-decoration: none;
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
 }
-div.contacts {
+.contacts {
   border: 3px #ffffff solid;
 }
-p.number {
+.number {
   color: #ee3643;
-  text-decoration: none;
   font-size: 21px;
   line-height: 21px;
 }
-p.headre-addres {
+.headre-addres {
   color: #32425c;
-  text-decoration: none;
   font-size: 14px;
   line-height: 24px;
 }
@@ -94,7 +93,6 @@ p.headre-addres {
 }
 .entrance-user a {
   color: #000000;
-  text-decoration: none;
   font-size: 21px;
   line-height: 21px;
 }
@@ -102,7 +100,7 @@ p.headre-addres {
 .entrance-user a:focus {
   color: #ee3643;
 }
-nav.site-navigation {
+.site-navigation {
   background-color: #32425c;
 }
 .site-navigation-button li {
@@ -110,7 +108,6 @@ nav.site-navigation {
 }
 .site-navigation-button a {
   color: #ffffff;
-  text-decoration: none;
   font-size: 17px;
   line-height: 17px;
 }
@@ -121,63 +118,57 @@ nav.site-navigation {
 .site-navigation-button a:active {
   background-color: #1d2739;
 }
-section.company-info {
+.company-info {
   background-color: #ffffff;
   color: #000000;
 }
-h1.info-text {
-  text-decoration: none;
+.info-text {
   text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
 }
-.info-left p {
-  text-decoration: none;
+.info-text-small {
   font-size: 13px;
   line-height: 24px;
 }
-.transport-company li {
+.transport-company-type {
   list-style-image:  url(../img/index/mark.png);
   font-size: 18px;
   line-height: 40px;
 }
-.info-left a {
+.company-details {
   color: #000000;
   padding: 14px 27px 12px 28px;
-  text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
   background-color: #ee3643;
   width: 220px;
   height: 38px;
 }
-.info-left a:hover,
-.info-left a:focus{
+.company-details:hover,
+.company-details:focus{
   background-color: #ca2c37;
 }
-.info-left a:active{
+.company-details:active{
   background-color: #ba2732;
 }
 .info-right h3 {
-  text-decoration: none;
   text-transform: uppercase;
   font-size: 30px;
   line-height: 30px;
 }
 p.info-right-text {
-  text-decoration: none;
   font-size: 13px;
   line-height: 24px;
 }
 .info-right a {
-    color: #000000;
-    padding: 14px 59px 12px 63px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    background-color: #ee3643;
-    width: 300px;
-    height: 38px;
+  color: #000000;
+  padding: 14px 59px 12px 63px;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #ee3643;
+  width: 300px;
+  height: 38px;
   }
 .info-right a:hover,
 .info-right a:focus{
@@ -197,7 +188,6 @@ p.info-right-text {
 }
 .footer-menu-up a {
   color: #ffffff;
-  text-decoration: none;
   font-size: 18px;
 }
 .footer-menu-up a:hover,
@@ -206,10 +196,8 @@ p.info-right-text {
 }
 .footer-menu-up a:active {
   color: #929caa;
-  text-decoration: none;
 }
-p.footer-addres {
-  text-decoration: none;
+.footer-addres {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -219,7 +207,6 @@ p.footer-addres {
 }
 .footer-menu-down a {
   color: #ffd180;
-  text-decoration: none;
   font-size: 18px;
 }
 .footer-menu-down a:hover,
@@ -228,13 +215,11 @@ p.footer-addres {
 }
 .footer-menu-down a:active {
   color: #998a6e;
-  text-decoration: none;
 }
-div.footer-down {
+.footer-down {
   background-color: #293449;
 }
-p.footer-copyright {
-  text-decoration: none;
+.footer-copyright {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
@@ -282,14 +267,12 @@ p.footer-copyright {
   background: url(../img/index/insta-hover.png);
 }
 .footer-developer p {
-  text-decoration: none;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
 }
 .footer-developer a {
   color: #f1c77c;
-  text-decoration: none;
   font-size: 16px;
 }
 .footer-developer a:hover,
@@ -298,5 +281,129 @@ p.footer-copyright {
 }
 .footer-developer a:active {
   color: #ee3643;
-  text-decoration: none;
+}
+.username {
+  color: #000000;
+  font-size: 21px;
+  background-color: #ffffff;
+  width: 299px;
+  padding: 14px 69px 12px 47px;
+}
+.username::before {
+  content: "";
+  background-image: url(../img/catalog/user.png);
+  width: 20px;
+  height: 18px;
+  background-repeat: no-repeat;
+  margin-left: -30px;
+  margin-top: 1px;
+  position: absolute;
+}
+.username::before {
+  content: "";
+  background-image: url(../img/catalog/user.png);
+  width: 20px;
+  height: 18px;
+  background-repeat: no-repeat;
+  margin-left: -34px;
+  margin-top: 1px;
+  position: absolute;
+}
+.username:hover::before,
+.username:focus::before {
+  background-image: url(../img/catalog/user-hover.png);
+}
+.username::after {
+  content: "";
+  background-image: url(../img/catalog/logout.png);
+  width: 21px;
+  height: 17px;
+  background-repeat: no-repeat;
+  margin-left: 38px;
+  margin-top: 2px;
+  position: absolute;
+}
+.username:hover::after,
+.username:focus::after {
+  background-image: url(../img/catalog/logout-hover.png);
+}
+.username:active {
+  color: #cacaca;
+}
+.username:active::before {
+  background-image: url(../img/catalog/user.png);
+}
+.username:active::after {
+  background-image: url(../img/catalog/logout.png);
+}
+.entrance-user a {
+  color: #32425c;
+  font-size: 16px;
+  text-decoration: underline;
+}
+.entrance-user a:hover,
+.entrance-user a:focus {
+  color: #ee3643;
+}
+.entrance-user a:active {
+  color: #cacaca;
+}
+.my-orders a::after {
+  content: "";
+  background-image: url(../img/catalog/dot.png);
+  width: 4px;
+  height: 5px;
+  background-repeat: no-repeat;
+  margin-left: 16px;
+  margin-top: 10px;
+  position: absolute;
+}
+.navigation li:not(:first-child) {
+  list-style-image:  url(../img/catalog/right-small.png);
+}
+.navigation a {
+  color: #000000;
+  font-size: 13px;
+}
+.general-product {
+  color: #32425c;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
+}
+.filters {
+  color: #000000;
+  text-transform: uppercase;
+}
+.filter-head {
+  font-size: 13px;
+  background-color: #f7f3ec;
+  width: 220px;
+  height: 38px;
+}
+.legend-form {
+  font-weight: bold;
+}
+.field-border {
+  border: 0px;
+}
+.filters button {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e5e5e5;
+  width: 138px;
+  height: 40px;
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.info {
+  background-color: #f2f6f8;
+  color: #000000;
+}
+.perforators-head {
+  font-size: 30px;
+}
+.perforators-info {
+  font-size: 13px;
 }
