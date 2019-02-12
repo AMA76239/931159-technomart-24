@@ -69,6 +69,10 @@ a {
   background-color: #212a3a;
 }
 
+.site-point a:active {
+  background-color: #161d29;
+}
+
 .site-point a.checkout {
   background-color: #63a63e;
 }
@@ -117,8 +121,7 @@ a {
 .login a {
   color: #000000;
   font-size: 21px;
-  font-d
-
+  line-height: 21px;
 }
 
 .login a:hover,
@@ -141,6 +144,7 @@ a {
 .site-navigation-button a {
   color: #ffffff;
   font-size: 17px;
+  line-height: 17px;
 }
 
 .site-navigation-button a:hover,
@@ -174,7 +178,7 @@ a {
 .transport-company-type {
   list-style-image:  url(../img/index/mark.png);
   font-size: 18px;
-  line-height: 40px;
+  line-height: 20px;
 }
 
 .company-details {
@@ -182,6 +186,7 @@ a {
   padding: 14px 27px 12px 28px;
   text-transform: uppercase;
   font-size: 14px;
+  line-height: 18px;
   background-color: #ee3643;
   width: 220px;
   height: 38px;
@@ -212,6 +217,7 @@ a {
   padding: 14px 59px 12px 63px;
   text-transform: uppercase;
   font-size: 14px;
+  line-height: 18px;
   background-color: #ee3643;
   width: 300px;
   height: 38px;
@@ -241,6 +247,7 @@ a {
 .footer-menu-up a {
   color: #ffffff;
   font-size: 18px;
+  line-height: 24px;
 }
 
 .footer-menu-up a:hover,
@@ -266,6 +273,7 @@ a {
 .footer-menu-down a {
   color: #ffd180;
   font-size: 18px;
+  line-height: 24px;
 }
 
 .footer-menu-down a:hover,
@@ -349,6 +357,7 @@ a {
 .footer-developer a {
   color: #f1c77c;
   font-size: 16px;
+  line-height: 18px;
 }
 
 .footer-developer a:hover,
@@ -364,6 +373,7 @@ a {
 .username {
   color: #000000;
   font-size: 21px;
+  line-height: 21px;
   background-color: #ffffff;
 }
 
@@ -429,6 +439,7 @@ a {
 .entrance-user a {
   color: #32425c;
   font-size: 16px;
+  line-height: 18px;
   text-decoration: underline;
 }
 
@@ -459,11 +470,13 @@ a {
 .navigation a {
   color: #000000;
   font-size: 13px;
+  line-height: 18px;
 }
 
 .general-product {
   color: #32425c;
   font-size: 30px;
+  line-height: 30px;
   text-transform: uppercase;
   background-color: #f2f6f8;
   font-weight: normal;
@@ -476,6 +489,7 @@ a {
 
 .filter-head {
   font-size: 13px;
+  line-height: 18px;
   background-color: #f7f3ec;
   width: 220px;
   height: 38px;
@@ -497,6 +511,7 @@ a {
   height: 40px;
   text-align: center;
   font-size: 13px;
+  line-height: 18px;
   text-transform: uppercase;
 }
 
@@ -507,9 +522,68 @@ a {
 
 .perforators-head {
   font-size: 30px;
+  line-height: 30px;
   font-weight: normal;
 }
 
 .perforators-info {
   font-size: 13px;
+  line-height: 24px;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 59px;
+}
+
+.section-header-up {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 46px;
+}
+
+.search-form {
+  width: 270px;
+  margin: 0;
+  padding: 0;
+}
+
+.site-point {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-header-down {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  align-items: center;
+  width: 100%;
+  margin-bottom: 59px;
+}
+
+.text-info {
+  width: 196px;
+  height: 57px;
+  margin: 0;
+  padding: 0;
+}
+
+.center-form {
+  width: 270px;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+}
+.number {
+  padding-left: 70px;
+  padding-right: 50px;
 }
