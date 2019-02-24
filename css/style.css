@@ -23,13 +23,18 @@ a {
 
 .section-header-up {
   background-color: #293449;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 940px;
+  height: 42px;
 }
 
 .head-logo {
   background-image: url(../img/index/technomart.svg);
   width: 220px;
   height: 47px;
-  /* display: inline; */
 }
 
 .head-logo:hover,
@@ -116,6 +121,14 @@ a {
 
 .section-header-down {
   background-color: #f3f7f8;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 940px;
+  margin-bottom: 40px;
+  margin-top: 46px;
+  padding: 0px;
 }
 
 .text-info {
@@ -123,9 +136,9 @@ a {
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
-  width: 196px;
+  width: 200px;
   height: 57px;
-  margin: 0 0 0 53px;
+  margin: -6px 0 0 52px;
   padding: 0;
 }
 
@@ -134,19 +147,60 @@ a {
   font-size: 21px;
   line-height: 21px;
   border: 3px #ffffff solid;
-  padding-left: 71px;
-  padding-right: 50px;
-  padding-top: 11px;
-  padding-bottom: 9px;
-  margin: 0px;
+  margin: 0;
+  padding: 10px 50px 8px 70px;
+}
+.number::before {
+  content: "";
+  background-image: url(../img/index/phone.png);
+  width: 20px;
+  height: 18px;
+  background-repeat: no-repeat;
+  margin-left: -60px;
+  margin-top: 1px;
+  position: absolute;
 }
 
 .headre-addres {
   color: #32425c;
   font-size: 14px;
   line-height: 24px;
+  margin: 4px 0 0 8px;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 0;
-  margin: 0;
+  margin: -5px 16px 0 0;
+  width: 281px;
+  height: 45px;
+}
+
+.entrance a {
+  padding: 12px 28px 11px 49px;
+  width: 121px;
+}
+
+.registration a {
+  padding: 12px 26px 11px 26px;
+  width: 150px;
+}
+
+.entrance a::before {
+  content: "";
+  background-image: url(../img/index/login.png);
+  width: 20px;
+  height: 18px;
+  background-repeat: no-repeat;
+  margin-left: -30px;
+  margin-top: 1px;
+  position: absolute;
+}
+.entrance a:hover::before,
+.entrance a:focus::before {
+  background-image: url(../img/index/login-hover.png);
 }
 
 .login li {
@@ -157,10 +211,6 @@ a {
   color: #000000;
   font-size: 21px;
   line-height: 21px;
-  padding-left: 49px;
-  padding-right: 50px;
-  padding-top: 14px;
-  padding-bottom: 16px;
   background-color: #ffffff;
 }
 
@@ -179,21 +229,28 @@ a {
 
 .site-navigation {
   background-color: #32425c;
+  padding: 0;
+  margin: 0;
+  width: 940px;
+  min-height: 60px;
 }
 
 .site-navigation-button li {
   list-style: none;
+  display: flex;
+  margin: auto;
+  flex-grow: 1;
 }
 
 .site-navigation-button a {
   color: #ffffff;
+  margin: auto;
   font-size: 17px;
   line-height: 17px;
-  padding-left: 31px;
-  padding-right: 32px;
-  padding-top: 22px;
-  padding-bottom: 26px;
+  padding-top: 20px;
+  padding-bottom: 24px;
 }
+
 
 .site-navigation-button a:hover,
 .site-navigation-button a:focus {
@@ -296,7 +353,7 @@ a {
 .footer-menu-top li {
   list-style: none;
   margin-left: 59px;
-  margin-top: 42px;
+  margin-top: 38px;
 }
 .footer-menu-top li:first-child {
   margin-left: 0;
@@ -322,22 +379,24 @@ a {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
-  width: 321px;
+  /* width: 350px; */
   height: 37px;
-  margin: 0;
+  margin: 0 0 0 2px;
 }
 
 .footer-menu-bottom {
-  margin: 0px 0px 0px 92px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 0px 0px 0px;
   padding: 0;
 }
 
 .footer-menu-bottom li {
   list-style: none;
-  margin-left: 61px;
+  margin-left: 56px;
 }
 .footer-menu-bottom li:first-child {
-  margin-left: 0px;
+  margin-left: 90px;
 }
 
 .footer-menu-down a {
@@ -361,7 +420,7 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -369,13 +428,13 @@ a {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
-  width: 226px;
-  height: 33px;
   padding: 0;
   margin: 0;
 }
 
 .footer-social li {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -384,6 +443,8 @@ a {
   width: 41px;
   height: 42px;
   display: block;
+  margin-left: 5px;
+  margin-top: -4px;
 }
 
 .vk a:hover,
@@ -400,6 +461,8 @@ a {
   width: 41px;
   height: 42px;
   display: block;
+  margin-left: 3px;
+  margin-top: -4px;
 }
 
 .fb a:hover,
@@ -416,6 +479,8 @@ a {
   width: 41px;
   height: 42px;
   display: block;
+  margin-left: 3px;
+  margin-top: -5px;
 }
 
 .instogram a:hover,
@@ -425,6 +490,13 @@ a {
 
 .instogram a:active {
   background: url(../img/index/insta-hover.png);
+}
+
+.footer-developer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer-developer p {
@@ -623,52 +695,23 @@ a {
   line-height: 24px;
 }
 
-.section-header-up {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  width: 940px;
-}
-
 .search-form {
   width: 270px;
 }
 
-.section-header-down {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  width: 940px;
-  margin-bottom: 47px;
-  padding-top: 46px;
-}
-
 .center-form {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0 0px 0 16px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-.login {
-  display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
 .site-navigation-button {
- width: 940px;
  display: flex;
  flex-direction: row;
- flex-grow: 1;
- margin-bottom: 60px;
-}
-
-.navigation-button {
-  display: flex;
-  flex-grow: 1;
+ padding: 0;
+ margin: 0;
 }
 
 .main-main {
@@ -689,18 +732,20 @@ a {
 
 .footer-up {
   width: 940px;
+  height: 193px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .section-footer-up {
-  width: 940px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .footer-menu-top {
@@ -715,7 +760,7 @@ a {
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 53px;
 }
 
@@ -730,15 +775,15 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 39px;
-  padding-bottom: 35px;
+  margin-top: 39px;
+  margin-bottom: 35px;
 }
 
 .footer-social {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 0;
+  justify-content: center;
+  margin: 0 0 0 65px;
   padding: 0;
 }
 
@@ -747,8 +792,11 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  height: 278px;
+  padding: 0;
+  margin: 0;
 }
 
 .company-info {
@@ -756,6 +804,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   width: 940px;
+  min-height: 448px;
   margin-bottom: 86px;
 }
 
@@ -848,10 +897,17 @@ a {
   flex-direction: column;
 }
 
-.product {
+.product-catalog {
   display: flex;
   flex-wrap: wrap;
   width: 700px;
+}
+.product-index {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  margin: 0 0 21px 0;
+  padding: 0;
 }
 
 .pagination-list {
@@ -859,13 +915,45 @@ a {
   flex-direction: row;
   list-style: none;
 }
+
 .product-example {
   display: flex;
   flex-direction: column;
-  min-width: 220px;
-  min-height: 318px;
+  min-width: 218px;
+  min-height: 316px;
   border: 1px solid;
   border-color: #e5e5e5;
+}
+
+.product-example:not(:first-child) {
+  margin-left: 20px;
+}
+
+.product-name {
+  display: flex;
+  justify-content:center;
+  order: 2;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bolder;
+  min-height: 40px;
+  padding: 0 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.product-photo {
+  order: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.product-price-old {
+  order: 3;
+}
+
+.product-price-new {
+  order: 4;
 }
 
 .perforators-head {
@@ -884,4 +972,248 @@ a {
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 73px;
+}
+
+.materials-categories {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+  background-image: url(../img/index/materials.svg);
+}
+
+.instruments-categories {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+  background-image: url(../img/index/instruments.svg);
+}
+
+.equipment-categories {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+  background-image: url(../img/index/equipment.svg);
+}
+
+.discounts-categories {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+  background-image: url(../img/index/discounts.svg);
+}
+
+.delivery-categories {
+  display: flex;
+  flex-direction: column;
+  order: 3;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+  background-image: url(../img/index/delivery-2.svg);
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  margin-top: 59px;
+}
+
+.slider-item:nth-child(1) {
+  background-image: url(../img/index/perforators.jpg);
+  background-repeat: no-repeat;
+  min-width: 620px;
+  min-height: 266px;
+}
+
+.slider-item:nth-child(2) {
+  background-image: url(../img/index/drills.jpg);
+  background-repeat: no-repeat;
+  min-width: 620px;
+  min-height: 266px;
+}
+
+.slider-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.slider-item {
+  display: none;
+}
+
+#product-1:checked ~ .slider-list .slider-item:nth-child(1) {
+  display: block;
+}
+
+#product-2:checked ~ .slider-list .slider-item:nth-child(2) {
+  display: block;
+}
+
+.checked {
+  position: absolute;
+}
+
+.slider-controls {
+  display: none;
+}
+
+.visually-hidden {
+  position: relative;
+  top: 238px;
+  left: 296px;
+  padding: 0;
+  margin: 0;
+}
+
+.text-categories-slider {
+  padding: 10px 49px 12px 50px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  border-radius: 3px;
+  color: #ffffff;
+  position: relative;
+  top: -50px;
+  left: 24px;
+}
+
+.part-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.part-1 div:not(:first-child) {
+  margin-left: 20px;
+}
+
+.part-2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 53px 0;
+  padding: 0;
+}
+
+.slider-general {
+  width: 620px;
+  height: 266px;
+  padding: 0;
+  margin: 0;
+  order: 1;
+}
+
+.part-2-right {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  margin: 20px 0 0 20px;
+  padding: 0;
+}
+
+.part-2-right div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.popular-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0 0 20px 0;
+  width: 940px;
+  height: 89px;
+  background-color: #f9f5f0;
+}
+
+.popular-text {
+  font-size: 30px;
+  line-height: 30px;
+  margin-left: 29px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.all-product {
+  background-image: url(../img/index/all-prouct.png);
+  width: 253px;
+  height: 38px;
+  margin-top: 25px;
+  margin-right: 23px;
+}
+
+.all-product:hover,
+.all-product:active{
+  background-image: url(../img/index/all-prouct-hover.png);
+}
+
+.all-manufacturers {
+  background-image: url(../img/index/all-manufacturers.png);
+  width: 253px;
+  height: 38px;
+  margin-top: 25px;
+  margin-right: 23px;
+}
+
+.all-manufacturers:hover,
+.all-manufacturers:active{
+  background-image: url(../img/index/all-manufacturers-hover.png);
+}
+
+.manufacturers {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 0 64px 0;
+  padding: 0;
+  width: 940px;
+}
+
+.manufacturers-example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 218px;
+  min-height: 144px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  border: 1px #eaeaea solid;
+}
+
+.services {
+  width: 100%;
+  background-color: #f4f8f9;
+}
+
+.services-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 940px;
+  height: 523px;
+  margin: 0;
+  padding: 0;
 }
