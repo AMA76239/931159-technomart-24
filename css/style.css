@@ -930,16 +930,15 @@ a {
 }
 
 .product-name {
-  display: flex;
-  justify-content:center;
   order: 2;
+  font-family: 'PT Sans', sans-serif;
   font-size: 18px;
   line-height: 20px;
-  font-weight: bolder;
+  text-align: center;
+  font-weight: bold;
   min-height: 40px;
-  padding: 0 25px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  padding: 0;
+  margin: 13px 0 0 0;
 }
 
 .product-photo {
@@ -949,11 +948,46 @@ a {
 }
 
 .product-price-old {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: line-through;
+  color: #a9a9a9;
+  padding: 0 0 0 3px;
+  margin: 12px 0 0 0;
   order: 3;
+  min-height: 18px;
 }
 
 .product-price-new {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  text-align: center;
+  font-weight: bold;
   order: 4;
+  position: relative;
+  width: 80px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px 28px;
+  color: white;
+  background: #ee3643;
+  border-radius: 3px;
+}
+
+.product-price-new:after {
+  content: "";
+
+  position: absolute;
+  top: -1px;
+  right: -26px;
+  width: 0;
+  height: 0;
+  border: 20px solid white;
+  border-left-color: #ee3643;
 }
 
 .perforators-head {
@@ -1034,14 +1068,14 @@ a {
 }
 
 .slider-item:nth-child(1) {
-  background-image: url(../img/index/perforators.jpg);
+  background-image: url(../img/index/perforators.png);
   background-repeat: no-repeat;
   min-width: 620px;
   min-height: 266px;
 }
 
 .slider-item:nth-child(2) {
-  background-image: url(../img/index/drills.jpg);
+  background-image: url(../img/index/drills.png);
   background-repeat: no-repeat;
   min-width: 620px;
   min-height: 266px;
@@ -1079,7 +1113,8 @@ a {
   top: 238px;
   left: 296px;
   padding: 0;
-  margin: 0;
+  margin: 0 0 0 0;
+  color: red;
 }
 
 .text-categories-slider {
@@ -1092,8 +1127,17 @@ a {
   border-radius: 3px;
   color: #ffffff;
   position: relative;
-  top: -50px;
+  top: -49px;
   left: 24px;
+}
+
+.text-categories-slider:hover,
+.text-categories-slider:focus {
+  background-color: #ca2c37;
+}
+
+.text-categories-slider:active {
+  background-color: #ba2732;
 }
 
 .part-1 {
@@ -1216,4 +1260,52 @@ a {
   height: 523px;
   margin: 0;
   padding: 0;
+}
+
+.type-categories {
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 20px 0 0 23px;
+}
+
+.text-categories {
+  width: 135px;
+  height: 28px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  margin: 14px 0 0 24px;
+  padding: 10px 0 0 0;
+}
+
+.text-categories:hover,
+.text-categories:focus {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.text-categories:active {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.type-categories-big {
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 0;
+  margin: 25px 0 0 25px;
+}
+
+.text-categories-small {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 0;
+  margin: 1px 0 0 25px;
 }
