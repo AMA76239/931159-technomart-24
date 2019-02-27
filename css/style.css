@@ -238,19 +238,21 @@ a {
 .site-navigation-button li {
   list-style: none;
   display: flex;
+  text-align: center;
   margin: auto;
   flex-grow: 1;
 }
 
 .site-navigation-button a {
   color: #ffffff;
+  text-align: center;
+  flex-grow: 1;
   margin: auto;
   font-size: 17px;
   line-height: 17px;
   padding-top: 20px;
   padding-bottom: 24px;
 }
-
 
 .site-navigation-button a:hover,
 .site-navigation-button a:focus {
@@ -387,16 +389,28 @@ a {
 .footer-menu-bottom {
   display: flex;
   justify-content: flex-end;
-  margin: 0px 0px 0px 0px;
+  margin: 0;
   padding: 0;
 }
 
 .footer-menu-bottom li {
   list-style: none;
-  margin-left: 56px;
 }
-.footer-menu-bottom li:first-child {
-  margin-left: 90px;
+
+.footer-menu-bottom li:nth-child(1) {
+  margin-left: 91px;
+}
+
+.footer-menu-bottom li:nth-child(2) {
+  margin-left: 60px;
+}
+
+.footer-menu-bottom li:nth-child(3) {
+  margin-left: 60px;
+}
+
+.footer-menu-bottom li:nth-child(4) {
+  margin-left: 59px;
 }
 
 .footer-menu-down a {
@@ -428,8 +442,8 @@ a {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
-  padding: 0;
-  margin: 0;
+  padding: 0 0 0 1px;
+  margin: -1px 0 0 0;
 }
 
 .footer-social li {
@@ -443,7 +457,7 @@ a {
   width: 41px;
   height: 42px;
   display: block;
-  margin-left: 5px;
+  margin-left: 4px;
   margin-top: -4px;
 }
 
@@ -492,22 +506,40 @@ a {
   background: url(../img/index/insta-hover.png);
 }
 
-.footer-developer{
+.footer-developer-1{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 28px;
+  top: -1px;
+
 }
 
-.footer-developer p {
+.footer-developer-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: -14px;
+  top: -1px;
+}
+
+.text-developer {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
   padding: 0;
-  margin: 0;
+  margin: 0 0 0 0;
 }
 
-.footer-developer a {
+.href-developer {
   color: #f1c77c;
   font-size: 16px;
   line-height: 18px;
@@ -515,12 +547,12 @@ a {
   margin: 0;
 }
 
-.footer-developer a:hover,
-.footer-developer a:focus {
+.href-developer:hover,
+.href-developer:focus {
   text-decoration: underline;
 }
 
-.footer-developer a:active {
+.href-developer:active {
   color: #ee3643;
   text-decoration: none;
 }
@@ -1200,29 +1232,49 @@ a {
 }
 
 .all-product {
-  background-image: url(../img/index/all-prouct.png);
-  width: 253px;
-  height: 38px;
-  margin-top: 25px;
-  margin-right: 23px;
+  width: 252px;
+  height: 28px;
+  padding: 11px 0 0 1px;
+  margin: 25px 25px 0 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  color: #ffffff;
+  border-radius: 3px;
 }
 
 .all-product:hover,
-.all-product:active{
-  background-image: url(../img/index/all-prouct-hover.png);
+.all-product:focus{
+  background-color: #ca2c37;
+}
+
+.all-product:active {
+  background-color: #ba2732;
 }
 
 .all-manufacturers {
-  background-image: url(../img/index/all-manufacturers.png);
-  width: 253px;
-  height: 38px;
-  margin-top: 25px;
-  margin-right: 23px;
+  width: 252px;
+  height: 28px;
+  padding: 11px 0 0 1px;
+  margin: 25px 25px 0 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  color: #ffffff;
+  border-radius: 3px;
 }
 
 .all-manufacturers:hover,
-.all-manufacturers:active{
-  background-image: url(../img/index/all-manufacturers-hover.png);
+.all-manufacturers:focus{
+  background-color: #ca2c37;
+}
+
+.all-manufacturers:active {
+  background-color: #ba2732;
 }
 
 .manufacturers {
