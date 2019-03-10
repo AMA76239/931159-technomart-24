@@ -286,9 +286,10 @@ a {
 }
 
 .info-text-small {
-  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
   line-height: 24px;
-  margin: 28px 0 0 0;
+  margin: 27px 0 0 0;
   padding: 0;
 }
 
@@ -885,7 +886,7 @@ a {
 }
 
 .info-left {
-  width: 530px;
+  width: 520px;
   height: 370px;
   display: flex;
   flex-direction: column;
