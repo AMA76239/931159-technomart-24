@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Cuprum', sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   color: #000000;
   background-color: #ffffff;
   font-weight: normal;
@@ -286,7 +286,7 @@ a {
 }
 
 .info-text-small {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
   margin: 27px 0 0 0;
@@ -728,7 +728,7 @@ a {
 .filters {
   color: #000000;
   text-transform: uppercase;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .filter-head {
@@ -778,7 +778,7 @@ a {
   width: 940px;
   margin: 26px 0 67px 0;
   font-stretch: ultra-expanded;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .search-form {
@@ -1028,7 +1028,7 @@ a {
 
 .pagination-item {
   border: 1px solid #e5e5e5;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   border-radius: 2px;
   font-size: 13px;
   line-height: 18px;
@@ -1064,7 +1064,7 @@ a {
 
 .pagination-item-next {
   border: 1px solid #e5e5e5;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   border-radius: 2px;
   font-size: 13px;
   line-height: 18px;
@@ -1127,7 +1127,7 @@ a {
 
 .product-name-catalog {
   order: 2;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
   text-align: center;
@@ -1139,7 +1139,7 @@ a {
 
 .product-name {
   order: 2;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
   text-align: center;
@@ -1156,7 +1156,7 @@ a {
 }
 
 .product-price-old {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   text-align: center;
@@ -1170,7 +1170,7 @@ a {
 }
 
 .product-price-new {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   text-align: center;
@@ -1642,4 +1642,94 @@ a {
 }
 .icon-down:active {
   background-image: url(../img/catalog/icon-down-active.svg);
+}
+
+.product-example .actions {
+  position: relative;
+  top: 0px;
+  left: 0px;
+
+  width: 218px;
+  height: 88px;
+  padding: 40px 0;
+
+  background-color: rgba(255,255,255,0.9);
+  z-index: 10;
+  display: none;
+}
+.product-example .actions .buy,
+.product-example .actions .bookmark {
+  display: block;
+  width: 129px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  padding: 7px 0;
+
+  background-color: #63a63e;
+  border: 3px solid #63a63e;
+  border-bottom-color: #367315;
+  border-radius:3px;
+
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Cuprum", sans-serif;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.product-example .actions .bookmark {
+  color: #32425c;
+  background: white;
+  border-bottom-color: #63a63e;
+}
+
+.product-example:hover .actions {
+  display: block;
+}
+
+.product-example-catalog .actions {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  width: 218px;
+  height: 88px;
+  padding: 40px 0;
+
+  background-color: rgba(255,255,255,0.9);
+  z-index: 10;
+  display: none;
+}
+.product-example-catalog .actions .buy,
+.product-example-catalog .actions .bookmark {
+  display: block;
+  width: 129px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  padding: 7px 0;
+
+  background-color: #63a63e;
+  border: 3px solid #63a63e;
+  border-bottom-color: #367315;
+  border-radius:3px;
+
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Cuprum", sans-serif;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.product-example-catalog .actions .bookmark {
+  color: #32425c;
+  background: white;
+  border-bottom-color: #63a63e;
+}
+
+.product-example-catalog:hover .actions {
+  display: block;
 }
