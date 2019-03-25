@@ -291,6 +291,7 @@ a {
   line-height: 24px;
   margin: 27px 0 0 0;
   padding: 0;
+  width: 550px;
 }
 
 .info-text-small:last-of-type {
@@ -541,10 +542,6 @@ a {
   align-items: flex-start;
   margin: 0;
   padding: 0;
-  position: relative;
-  left: 28px;
-  top: -1px;
-
 }
 
 .footer-developer-2{
@@ -554,9 +551,6 @@ a {
   align-items: flex-start;
   margin: 0;
   padding: 0;
-  position: relative;
-  left: -14px;
-  top: -1px;
 }
 
 .text-developer {
@@ -1323,16 +1317,13 @@ a {
 
 .text-categories-slider {
   padding: 10px 49px 12px 50px;
-  margin: 0;
+  margin-left: 25px;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
   background-color: #ee3643;
   border-radius: 3px;
   color: #ffffff;
-  position: relative;
-  top: -49px;
-  left: 24px;
 }
 
 .text-categories-slider:hover,
@@ -1472,6 +1463,7 @@ a {
 
 .services-section {
   width: 100%;
+  min-height: 522px;
   background-color: #f4f8f9;
   display: flex;
   flex-direction: column;
@@ -1495,6 +1487,7 @@ a {
   font-weight: bold;
   margin: 0 0 70px 0;
   padding: 0 0 0 0;
+  width: 405px;
 }
 
 .services-block {
@@ -1613,7 +1606,7 @@ a {
   line-height: 24px;
   color: #ffffff;
   padding: 0;
-  margin: 1px 0 0 25px;
+  margin: 1px 0 130px 25px;
 }
 
 .icon-up {
@@ -1673,7 +1666,7 @@ a {
   color: white;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
@@ -1718,7 +1711,7 @@ a {
   color: white;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
@@ -1732,4 +1725,16 @@ a {
 
 .product-example-catalog:hover .actions {
   display: block;
+}
+
+.left-slider {
+  position: relative;
+  left: -600px;
+  top: 115px;
+}
+
+.right-slider {
+  position: relative;
+  left: -67px;
+  top: 115px;
 }
